@@ -1,0 +1,98 @@
+header a{
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  align-self: center;
+}
+.name_of_brend a {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  display: flex;
+}
+.burger_menu {
+  display: none;
+  visibility: hidden;
+}
+.burger_menu button svg,
+.place_by_personal_function button img{
+  width: 17px;
+  height: 17px;
+}
+.footer_links li,
+.catalog_menu li {
+  list-style-type: none;
+  margin: 2px;
+}
+.catalog_menu li:first-child a {
+  font-weight: bolder;
+  font-size: 20px;
+}
+main {
+  margin-top: 30vh;
+}
+.carousel-item img{
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+footer {
+  border-top: 1px #686868 solid;
+  margin-top: 10vh;
+}
+.footer_margin{
+    margin-top: 4vh;
+}
+.footer_links li a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    font-style: italic;
+    text-decoration: none;
+    color: #686868;
+}
+.footer_links li {
+  margin: 1vh;
+}
+.footer_end {
+  margin-top: 3vh;
+  font-size: 13px;
+  font-weight: bolder;
+  line-height: 15px;
+}
+.place_by_social_network button img{
+  height: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .search_div {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+  }
+  .place_by_social_network button img{
+    height: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .catalog_div {
+    display: none;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+  }
+  .burger_menu {
+    display: block;
+    visibility: visible;
+  }
+  .place_by_social_network button img{
+    height: 20px;
+  }
+  .footer_links li a{
+    font-size: 13px;
+  }
+}

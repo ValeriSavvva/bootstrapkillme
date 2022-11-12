@@ -1,0 +1,82 @@
+.card_row_common{
+    height:auto;
+}
+.card_row{
+    height:30vh;
+    margin: 3px 0;
+}
+.card_row div{
+    text-align: center;
+}
+.div_img_in_card {
+
+  height:30vh;
+  overflow: hidden;
+}
+.img_in_card {
+    max-height:100%;
+    width:auto;
+  }
+.card_panel-1 button svg,
+.card_panel-2 button svg{
+    height: 26px;
+    width: 26px;
+}
+.card_panel-1 button{
+    background-color: #D9D9D9;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.card_panel-1{
+    padding: 4px;
+    border:0.5px #D9D9D9 solid;
+    border-radius:  29px;
+}
+.card_price{
+    font-size:20px;
+}
+.card_order{
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    min-height:30vh;
+    position:fixed;
+    margin-top:30vh;
+    left: 60%;
+    top:0%;
+}
+.main_row{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card_order button{
+    border-radius: 30px;
+}
+@media screen and (max-width: 950px) {
+    .main_row{
+        font-weight: bolder;
+        font-size:inherit;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .card_order{
+        position:static;
+        margin-top:20vh;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .card_row_common{
+        flex-direction: column!important;
+    }
+    .card_row{
+        height:auto;
+        margin-bottom: 20px;
+    }
+    .card_row div{
+        margin: 4px 0;
+    }
+  }
+

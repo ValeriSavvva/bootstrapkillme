@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<link href="katalog.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid fixed-top shadow p-1 mb-5 bg-white">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center py-4 name_of_brend">
+                    <a href="./index.html">Knitted Monkey</a>
+                </div>
+            </div>
+
+            <div class="row gx-0 py-2">
+
+                <div class="row function_in_header d-flex justify-content-around">
+
+                    <div class="search_div col-lg-3 col-sm-12 place_by_search d-flex justify-self-start">
+                        <form class="d-flex">
+                            <button class="btn" type="submit"><img src="header_foto/search.png"></button>
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+
+                    <div
+                        class="catalog_div col-lg-3 col-md-5 col-sm-5 col-xs-12 place_by_catalog d-flex justify-content-around">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            catalog
+                        </a>
+                        <a href="./katalog.html">shop all</a>
+                        <a href="#">sale</a>
+                    </div>
+
+
+                    <div class="col-lg-3 col-sm-3 col-xs-6 place_by_personal_function d-flex justify-content-around">
+                        <button class="btn" type="button" onclick="window.location.href = 'card.html';"><img
+                                src="header_foto/card.png"></button>
+                        <button class="btn" type="button" onclick="window.location.href = '#';"><img
+                                src="header_foto/likes.png"></button>
+                        <button class="btn" type="button" onclick="window.location.href = '#';"><img
+                                src="/header_foto/personaldata.png"></button>
+                        <div class=" col-sm-6 col-xs-1 burger_menu">
+
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                    class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                                </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="my-5 d-flex flex-wrap">
+                    <ul class="col-sm-3 col-xs-6 catalog_menu d-flex flex-column">
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Верхняя одежда</a></li>
+                        <li><a href="#">Толстовки</a></li>
+                        <li><a href="#">атоылт</a></li>
+                    </ul>
+                    <ul class="col-sm-3 col-xs-6 catalog_menu d-flex flex-column">
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Верхняя одежда</a></li>
+                        <li><a href="#">Толстовки</a></li>
+                        <li><a href="#">атоылт</a></li>
+                        <li><a href="#">атоылт</a></li>
+                        <li><a href="#">атоылт</a></li>
+                        <li><a href="#">атоылт</a></li>
+                    </ul>
+                    <ul class="col-sm-3 col-xs-6 catalog_menu d-flex flex-column">
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Верхняя одежда</a></li>
+                        <li><a href="#">Толстовки</a></li>
+                        <li><a href="#">атоылт</a></li>
+                    </ul>
+                    <ul class="col-sm-3 col-xs-6 catalog_menu d-flex flex-column">
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Верхняя одежда</a></li>
+                        <li><a href="#">Толстовки</a></li>
+                        <li><a href="#">атоылт</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <main>
+        <div id="katalog" class="container-fluid">
+            
+        </div>
+
+
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center my-5">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="now_page_item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="modal-body" class="modal-body d-flex">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                          </svg></button>
+                        <button type="button" id="btn-for-add" class="btn btn-outline-dark" data-bs-dismiss="modal">Add to Cart</button>
+                        <button type="button" class="btn btn-dark"  onclick="window.location.href = 'card.html';">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer_margin">
+                <div class="row d-flex flex-wrap justify-content-around">
+                    <ul class="col-sm-4 col-md-3 col-xs-12 footer_links d-flex flex-column">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                    <ul class="col-sm-4 col-md-3 col-xs-12 footer_links d-flex flex-column">
+                        <li><a href="#">Stockists</a></li>
+                        <li><a href="#">Brexit Update</a></li>
+                        <li><a href="#">Private Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                    <ul class="col-sm-4 col-md-3 col-xs-12 footer_links d-flex flex-column">
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns & Exchanges </a></li>
+                        <li><a href="#">How to care for your Hope Macaulay item</a></li>
+                        <li><a href="#">Responsibility</a></li>
+                    </ul>
+
+                    <div
+                        class="place_by_social_network col-md-3 col-sm-12 col-xs-12 d-flex flex-nowrap align-items-end">
+                        <div class="social_networks">
+                            <button class="btn col-3 px-3" type="button"
+                                onclick="window.location.href = 'https://w3docs.com';"><img
+                                    src="/footer_social/facebook.png"></button>
+                            <button class="btn col-3 px-3" type="button"
+                                onclick="window.location.href = 'https://w3docs.com';"><img
+                                    src="/footer_social/insta.png"></button>
+                            <button class="btn col-3 px-3" type="button"
+                                onclick="window.location.href = 'https://w3docs.com';"><img
+                                    src="/footer_social/youtube.png"></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center footer_end">
+                    <div>© 2022 Knitted Monkey</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="catalog.js"></script>
+        <script src="script_katalog.js"></script>
+</body>
+</body>
+
+</html>

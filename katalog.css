@@ -1,0 +1,43 @@
+.card img{
+    border-radius:0;
+}
+.card a img{
+    height: 100%;
+    object-fit:cover;
+}
+.card button{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+.card:hover .btn_card{
+   visibility: visible;
+}
+.pagination{
+    --bs-pagination-active-bg:#000000 !important;
+    --bs-pagination-hover-color: #000000 !important;
+    --bs-pagination-active-border-color: #000000 !important;
+    --bs-pagination-color: #000000 !important;
+    --bs-pagination-focus-color: #000000 !important;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(97, 100, 103, 0.25)!important;
+}
+@media screen and (max-width: 992px) {
+    .card a img{
+        height: 30vh;
+        object-fit:cover;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .card a img{
+        height: 20vh;
+        object-fit:cover;
+    }
+  }
+  @media screen and (max-width: 577px) {
+    .card a img{
+        height: 40vh;
+        object-fit:cover;
+    }
+  }
